@@ -6,6 +6,7 @@ public class HelloWorld {
 		System.out.print("Hello Java");
 		System.out.print("Hello Java");
 		System.out.print("Hello Java");
+		System.out.print("Hello Java");
 	}
 
 }
