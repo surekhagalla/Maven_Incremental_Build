@@ -1,12 +1,13 @@
 
 public class HelloWorld {
 
-	public static void main(String[] args) {
+	public static String main(String[] args) {
 		System.out.print("Hello Java");
 		System.out.print("Hello Java");
 		System.out.print("Hello Java");
 		System.out.print("Hello Java");
 		System.out.print("Hello Java");
+		return "Hello Java";
 	}
 
 }
