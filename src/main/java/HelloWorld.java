@@ -1,13 +1,14 @@
 
 public class HelloWorld {
 
-	public static String main(String[] args) {
-		System.out.print("Hello Java");
-		System.out.print("Hello Java");
-		System.out.print("Hello Java");
-		System.out.print("Hello Java");
-		System.out.print("Hello Java");
-		return "Hello Java";
-	}
+	public static void main(String[] args) {
+        Test();
+    }
+
+    public static String Test(){
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        return "Hello World!";
+    }
 
 }

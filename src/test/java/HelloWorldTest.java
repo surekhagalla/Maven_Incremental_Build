@@ -5,8 +5,8 @@ import org.junit.Test;
 public class HelloWorldTest {
 	HelloWorld aHelloWorld=new HelloWorld();
 	@Test(timeout=12000)
-	 public void testMain() {
-		assertTrue("Hello Java",true);
+	 public void testTest() {
+		assertEquals("Hello World!",aHelloWorld.Test());
 	}
 
 }
